@@ -4,6 +4,7 @@ const morgan = require('morgan')
 const Router = express.Router()
 const {connect,model,Schema} = require('mongoose')
 const {success,error,info} = require('consola')
+const multer = require('multer')
 require('dotenv').config()
 
 
@@ -63,4 +64,4 @@ let mongoConnect = function(){
 
 
 
-module.exports = {express,app,Router,connect,model,Schema,listen,mongoConnect}
+module.exports = {express,app,Router,connect,model,Schema,listen,mongoConnect,multer}

@@ -1,4 +1,5 @@
-const{listen,mongoConnect} = require("./config")
+const{listen,mongoConnect, app ,multer} = require("./config")
+const storage = require("./middlewares/multer")
 
 
 
