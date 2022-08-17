@@ -1,5 +1,6 @@
     course_name:{},
     course_id:{},
+    course_language:{},
     course_trainer:{},
     course_duration:{},
     course_category:{},

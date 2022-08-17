@@ -11,6 +11,15 @@ const CourseSchema = new Schema({
         type:String,
         required:[true,"course id  is required"]
     },
+    course_language:{
+        type:String,
+        enum:[
+            "English",
+            "Hindi",
+        ],
+        required:[true,"language is required"]
+        
+    },
     course_trainer:{
         type:String,
         required:[true,"course trainer name is required"]
